@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<!-- <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> -->
+    <title>Document</title>
+</head>
+<body>
+    <section class="container-fluid background">
+    <div class="app-wrap">
+        <!-- <div> -->
+            <header>
+                 <input type="text" class="form-control searchinput" placeholder="Search the city names...." autocomplete="off" required>
+            </header>
+            <div class="notification"></div>
+        <!-- </div> -->
+
+        <div class="weather-details">
+           <div class="location">
+               <!-- <div class="city">Kolkata, India</div> -->
+               <div class="city"></div>
+               <!-- <div class="date">3rd March, 2021</div>-->
+               <div class="date"></div>
+               <!-- <div class="time">Time:</div> -->
+               <div class="time"></div>
+           </div>
+
+           <div class="current">
+                <!-- <sup class="tempF">86 &deg; F</sup> -->
+                <!-- <div class="temp">30<span>&deg;C</span></div> -->
+                <div class="temp"></div>
+                <!-- <div class="tempF">86 &deg; F</div> -->
+                <div class="tempF"></div>
+
+              
+                <!-- <div class="tempF"><sup class="tempF">86 &deg; F</sup></div> -->
+                <!-- <div class="min-max">13 &deg; C <img src="../public/svg/up-arrow (1).png" width="10px" hwight="10px" alt=""> 16 &deg;C <img src="../public/svg/down-arrow.png" width="10px" hwight="10px" alt=""></div> -->
+                <div class="min-max"><img src="../public/svg/down-arrow.png" width="10px" height="10px" alt=""><img src="../public/svg/up-arrow (1).png" width="10px" height="10px" alt=""></div>
+
+                <!-- <div class="weather-type">Sunny</div> -->
+                <div class="weather-type"></div>
+                <div class="humidity-text"><b>Humidity</b></div>
+                <img class="humidity-img" src="../public/svg/hot.png" alt="" height="40px" width="40px">
+                <!-- <div class="humidity">31%</div> -->
+                <div class="humidity"></div>
+                <div class="feels_like"><b>feels like</b></div>
+                <div class="feel-img"><img src="../public/svg/umbrella.png" width="40px" height="40px" alt=""></div>
+                <!-- <div class="feels_like"></div> -->
+                <!-- <div class="feels" >13 &deg; C</div> -->
+                <div class="feels" ></div>
+                <!-- <div class="img"> -->
+                    <!-- <img src="./svg/cloudy.svg" alt=""> -->
+                    <!-- <p class="feel"></p> -->
+                    <!-- <img src="../public/svg/haze.png" height="20px" width="20px" alt=""> -->
+                 <!-- </div> -->
+                 <img class="icon" src="../public/svg/haze.png" alt="" height="40px" width="40px">
+           </div>
+     
+        </div>
+</div>
+</section>
+    <script src="/js/index.js"></script>
+</body>
+</html>

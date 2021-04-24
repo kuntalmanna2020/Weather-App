@@ -1,0 +1,21 @@
+{
+  "name": "weather-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "dev": "node app.js"
+  },
+  "author": "kuntal",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}

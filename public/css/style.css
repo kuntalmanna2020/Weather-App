@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Courgette', cursive; */
+
+}
+body
+{
+    background-image:url('../images/clear.jpg');
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-size: cover;
+}
+
+
+.background
+{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+    min-height: 100vh;
+
+
+
+}
+.app-wrap
+{
+    /* display: flex; */
+
+    /* flex-direction: column; */
+    width: 100vh;
+    height: 75vh;
+    margin: 100px auto;
+    /* background-color:burlywood; */
+    background-color:rgba(240,248,255,0.6);
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    
+   
+    /* background-image: url('../images/rainy-updated-2.jpg'); */
+    /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)); */
+
+}
+
+
+.app-wrap>*
+{
+    margin-bottom: 20px;
+
+}
+
+
+.searchinput
+{
+    width: 100%;
+    background-color:rgba(245, 245, 245, 0.849);
+    border: none;
+    outline: none;
+    color: #270000;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+
+
+}
+
+.searchinput:focus
+{
+    background-color:rgb(255, 255, 255) ;
+    /* background-color:rgb(255, 255, 255) */
+    transition: 0.2s;
+    box-shadow: -10px -10px 40px #edeff1,10px 10px 40px #b8bbc0
+}
+/* .image-generator
+{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    /* display: flex; */
+
+
+
+/* } */
+
+.weather-details
+{
+    color: rgb(41, 14, 1);
+    /* color: white; */
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    /* background-color:rgb(184, 184, 184) ; */
+    
+    /* background-image: url('../images/tengyart-qowcPqlSFAA-unsplash.jpg'); */
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      /* rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7) */
+      rgba(255, 255, 255, 0.959), 
+      rgba(228, 228, 228, 0.568)
+    ),
+    /* bottom, image */
+    url('../images/matt-palmer-J8KMIolTmGA-unsplash.jpg');
+    /* filter: blur(8px); */
+    background-size: cover;
+
+    height: 57vh;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.weather-type
+{
+   font-style: italic;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #242101;
+   font-size: 25px;
+}
+
+
+.location
+{
+    font-weight: bold;
+}
+.current
+{
+    padding: 20px;
+}
+
+.temp
+{
+    /* font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.2); */
+    margin: 25px auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50pt;
+    font-weight: bold;
+    color: #160577;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+
+}
+
+.tempF
+{
+    font-size: 20px;
+}
+
+/* .t 
+{
+    position: relative;
+    height: 500px;
+    left: 20px;
+    margin-left: 3px;
+    top: 20px;
+} */
+.feels_like
+{
+    position: relative;
+    /* top: -13px; */
+    bottom: 200px;
+    right: 250px;
+
+}
+/* class="feel-img" */
+.feels
+{
+    position: relative;
+    /* top:-13px; */
+    bottom: 200px;
+    right: 250px;
+}
+.feel-img
+{
+    position: relative;
+    /* top:-13px; */
+    bottom: 200px;
+    right: 250px; 
+}
+
+
+
+
+
+.humidity-text
+{
+    position: relative;
+    /* top:-13px; */
+    bottom: 230px;
+    right: 240px;
+    font-size: 20px;
+
+
+}
+
+.humidity
+{
+    position: relative;
+    /* top:-13px; */
+    bottom: 230px;
+    right: 240px;
+    font-size: 20px;
+
+
+}
+
+
+.humidity-img
+{     
+      position: relative;
+        /* top:-13px; */
+        bottom: 230px;
+        right: 250px;
+        font-size: 20px;
+        /* display: flex; */
+        justify-content: center;
+
+}
+/* div .img
+{
+    
+    
+} */
+
+/* div .img
+{
+    height: 50px;
+    position: relative;
+    top: 20px;
+    background-color: aqua;
+} */
+/* img
+{
+    position: relative;
+    top: 52px;
+} */
+
+.icon 
+{
+    position: relative;
+    /* top: 5px; */
+    bottom: 190px;
+    /* filter: brightness(0) invert(1) */
+    /* filter: brightness(100) */
+    /* size: 52px; */
+}
+
+
+/* .weather-details .minmax
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+
+
+/* .feel-img
+{
+
+} */
